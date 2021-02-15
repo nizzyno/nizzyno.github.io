@@ -107,6 +107,11 @@ main {
     border-radius: var(--main-radius);
     padding-top: var(--main-padding);
 }
+h2 {
+    font-weight: lighter;
+    font-size: 1.55vw;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
 footer {
     grid-area: footer;
     font-size: 1.25vw;
