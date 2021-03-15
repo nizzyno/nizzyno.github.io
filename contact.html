@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/css/style1.css">
+    <link rel="stylesheet" href="./assets/css/style2.css">
+</head>
+
+<body>
+    <header>
+        <!--This is the container with all of the content-->
+        <div class="container">
+            <!-- This is a link -->
+            <a href="index1.html" id="logo">Noah B. Harbison</a>
+            <!-- This is the navigation-->
+            <nav>
+                <a href="index1.html">About</a>|
+                <a href="portfolio.html">Portfolio</a>|
+                <a href="contact.html">Contact</a>|
+            </nav>
+        </div>
+    </header>
+    <!-- This is the white area with the written content -->
+    <div id="main-container" class="container">
+        <!-- Start main section -->
+        <section class="main">
+            <!-- Pages main heading -->
+            <h1 style="margin-bottom: 10px;">Contact</h1>
+            <!-- This is contact form-->
+            <form id="contact-form" action="mailto:nizzyno@icloud.com">
+                <ul>
+                    <!-- Label and input for name-->
+                    <li>
+                        <label for="name">Name</label>
+                        <input type="text" name="name" id="name" placeholder="Your Name">
+                    </li>
+                    <!-- Label and input for email-->
+                    <li>
+                        <label for="email">Email</label>
+                        <input type="email" name="email" id="email" placeholder="yourname@me.com">
+                    </li>
+                    <!-- Label and input for message-->
+                    <li>
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message">
+                        </textarea>
+                        <!-- This is the submit button-->
+                    </li>
+                    <input type="submit" name="submit">
+                </ul>
+
+            </form>
+
+            <!-- End main section -->
+        </section>
+    </div>
+    <footer>
+        <!-- This is a footer-->
+        <p>&copy; 2021 Noah Harbison</p>
+    </footer>
+</body>
+
+</html>
