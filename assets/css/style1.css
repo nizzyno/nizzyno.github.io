@@ -4,9 +4,9 @@
 }
 /* This is style for the body */
 body {
-    background-image: url("../images/2-white-sand-texture.jpg");
-
-    background-size: 100%;
+    background-image: url("../images/IMG_1072.jpeg");
+    background-size: cover;
+    background-attachment: fixed;
     font-size: 18px;
     line-height: 34px;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
@@ -38,7 +38,7 @@ header {
 #logo {
     width: 255px;
     height: 80px;
-    background: teal;
+    background: #497980;
     float: left;
     font-family: 'Georgia', Times, Times New Roman, serif;
     text-align: center;
@@ -72,7 +72,7 @@ nav a:first-child {
 }
 
 header nav a:hover {
-    background: teal;
+    background: #497980;
     color: white;
     border-radius: 10px;
     text-shadow: none;
@@ -91,7 +91,7 @@ p:last-child {
 h1, h2, h3 {
     font-family: 'Georgia', Times, Times New Roman, serif;
     font-weight: 700;
-    color: teal;
+    color: #497980;
 }
 /* This styles all other h1 elements */
 h1 {
@@ -145,7 +145,7 @@ h2, h3 {
 /* This code example is from the homework-1 solved video */
 .work h3 {
     border-bottom: 0; 
-    background-color: teal;
+    background-color: #497980;
     color: #ffffff;
     text-align: center; 
     position: absolute; 
@@ -192,7 +192,7 @@ textarea {
 /* Selects specific input types */ 
 /* This code example is from the homework-1 solved video */
 input[type=submit] {
-    background-color: teal;
+    background-color: #497980;
     border: 0 none;
     color: #ffffff;
     font-size: 18px;
@@ -201,17 +201,16 @@ input[type=submit] {
 /* Styles Sticky Footer */ 
 footer {
     background-color: #666666;
-    padding: 30px 0;
-    height: 23px;
+    padding: 30px;
+    height: 25px;
     width: 100%;
     clear: both;
-    border-top: 8px solid teal;
+    border-top: 5px solid #497980;
     color: #ccc;
     font-size: 12px; 
     text-align: center;
-    position: absolute;
+    position: fixed;
     bottom: 0;
-    z-index: 2;
 }
 /* Start Media Query */
 /* A Media Query max-width: 980px */
