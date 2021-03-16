@@ -273,6 +273,12 @@ footer {
      /* Resized content to fit 640px  */
         .container {
             min-width: 640px;
+            width: 100%;
+        }
+        
+        header h1 {
+            width: 100%;
+            text-align: center;
         }
     /* Resized main-content to fit 640px  */
         .main {
