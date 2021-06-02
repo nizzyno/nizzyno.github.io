@@ -392,6 +392,9 @@ footer {
   .section-title {
     width: 95%;
   }
+  img {
+    padding: 5px;
+  }
   .intro p {
     width: 100%;
   }
