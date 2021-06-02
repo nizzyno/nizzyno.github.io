@@ -410,6 +410,6 @@ footer {
     width: 100%;
     z-index: 99;
     position: fixed;
-    text-align: left;
+    text-align: center;
   }
 }
